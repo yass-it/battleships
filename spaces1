@@ -1,0 +1,18 @@
+specs:
+    nextPlayer: true
+        type: boolean
+        purpose:
+
+    moveState:
+        type: array of arrays
+        purpose: to store the values into computer
+
+    play:
+        type: function
+            args: a box from the Battle ship grid.  (onclick="play(this)")
+            behavior:
+
+    populateBoard:
+        type: function
+        args: null
+        purpose: to use appear (the result function play) on the board movestate
